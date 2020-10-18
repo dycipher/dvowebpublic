@@ -3,8 +3,8 @@
         <template slot="brand">
             <b-navbar-item tag="router-link" :to="{ path: '/' }">
                 <img
-                    src="https://raw.githubusercontent.com/buefy/buefy/dev/static/img/buefy-logo.png"
-                    alt="Lightweight UI components for Vue.js based on Bulma"
+                    src="http://b2b.dvosuspension.com/images/logo.jpg"
+                    alt="DVO Suspension Logo"
                 >
             </b-navbar-item>
         </template>
@@ -29,18 +29,13 @@
                     Registration and History
                 </b-navbar-item>
             </b-navbar-dropdown>
-            <b-navbar-dropdown label="myTunes">
-                <b-navbar-item tag="router-link" :to="{ path: '/mytunes/create' }">
-                    View
-                </b-navbar-item>
-                <b-navbar-item tag="router-link" :to="{ path: '/mytunes/view' }">
-                    Create
-                </b-navbar-item>
-            </b-navbar-dropdown>
             <b-navbar-item tag="router-link" :to="{ path: '/warranty-credit-request' }">
                 Warranty Credit Requests
             </b-navbar-item>
-            <b-navbar-dropdown label="Reports">
+            <b-navbar-item tag="router-link" :to="{ path: '/report-builder' }">
+                Report Builder
+            </b-navbar-item>
+            <!-- <b-navbar-dropdown label="Reports">
                 <b-navbar-item tag="router-link" :to="{ path: '/warranty-report' }">
                     Warranty Credit Report
                 </b-navbar-item>
@@ -50,8 +45,8 @@
                 <b-navbar-item tag="router-link" :to="{ path: '/service-codes-reports' }">
                     Service Codes Report
                 </b-navbar-item>
-            </b-navbar-dropdown>
-            <b-navbar-dropdown label="Admin">
+            </b-navbar-dropdown> -->
+            <!-- <b-navbar-dropdown label="Admin">
                 <b-navbar-item href="#">
                     Product Categories
                 </b-navbar-item>
@@ -73,7 +68,7 @@
                 <b-navbar-item href="#">
                     Logout
                 </b-navbar-item>
-            </b-navbar-dropdown>
+            </b-navbar-dropdown> -->
         </template>
 
         <template slot="end">

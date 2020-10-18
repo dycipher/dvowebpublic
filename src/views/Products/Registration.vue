@@ -1,16 +1,7 @@
 <template>
   <div class="container is-fluid has-background-light">
     <div class="notification full">
-      <h1>Product Groups Page</h1>
-      <section>
-      <b-field>
-        <b-select placeholder="Filter Product Line">
-          <option>Topaz</option>
-        </b-select> 
-      </b-field>
-        <b-table :data="data" :columns="columns"></b-table>
-      </section>
-      <b-button>New Item</b-button>
+      <h1>Registration and History Page</h1>
     </div>
   </div>
 </template>

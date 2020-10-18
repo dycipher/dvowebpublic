@@ -5,6 +5,7 @@ import Users from '../views/Users'
 import Products from '../views/Products/Products'
 import ProductGroups from '../views/Products/ProductGroups'
 import Import from '../views/Products/Import'
+import Registration from '../views/Products/Registration'
 import Query from '../views/Products/Query'
 import WarrantyCreditRequest from '../views/WarrantyCreditRequest'
 import PartsUsedReport from '../views/Reports/PartsUsedReport'
@@ -47,6 +48,11 @@ const routes = [
   },
   {
     path: '/products/registration',
+    name: 'Registration',
+    component: Registration
+  },
+  {
+    path: '/report-builder',
     name: 'Query',
     component: Query
   },
