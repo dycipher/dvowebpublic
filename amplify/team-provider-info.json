@@ -1,0 +1,23 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-dvo-dev-182842-authRole",
+            "UnauthRoleArn": "arn:aws:iam::125383234269:role/amplify-dvo-dev-182842-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::125383234269:role/amplify-dvo-dev-182842-authRole",
+            "Region": "us-west-2",
+            "DeploymentBucketName": "amplify-dvo-dev-182842-deployment",
+            "UnauthRoleName": "amplify-dvo-dev-182842-unauthRole",
+            "StackName": "amplify-dvo-dev-182842",
+            "StackId": "arn:aws:cloudformation:us-west-2:125383234269:stack/amplify-dvo-dev-182842/6dc8c9c0-11aa-11eb-a015-0a3fa5f72d9d",
+            "AmplifyAppId": "dugyarimrj92m"
+        },
+        "categories": {
+            "hosting": {
+                "amplifyhosting": {
+                    "appId": "dugyarimrj92m",
+                    "type": "manual"
+                }
+            }
+        }
+    }
+}
