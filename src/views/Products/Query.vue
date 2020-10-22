@@ -3,6 +3,7 @@
     <div class="columns">
         <div class="column has-text-centered">
             <h1 class="is-size-4">Query Page</h1>
+            <h2>Test test</h2>
         </div>
     </div>
     <div class="columns">
