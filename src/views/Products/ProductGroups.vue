@@ -1,7 +1,7 @@
 <template>
   <div class="container is-fluid has-background-light">
     <div class="notification full">
-      <h1>Product Groups Page</h1>
+      <h1 class="is-size-4">Product Groups Page</h1>
       <section>
       <b-field>
         <b-select placeholder="Filter Product Line">

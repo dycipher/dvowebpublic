@@ -3,7 +3,7 @@
         <template slot="brand">
             <b-navbar-item tag="router-link" :to="{ path: '/' }">
                 <img
-                    src="http://b2b.dvosuspension.com/images/logo.jpg"
+                    src="logo.jpg"
                     alt="DVO Suspension Logo"
                 >
             </b-navbar-item>

@@ -1,5 +1,5 @@
 <template>
-  <div class="container is-fluid">
+  <div class="container is-fluid full">
     <div class="columns">
         <div class="column has-text-centered">
             <h1 class="is-size-4">Query Page</h1>
@@ -55,10 +55,6 @@
                         Products
                     </b-checkbox-button>
                 </b-field>
-                <p class="content">
-                    <b>Selection:</b>
-                    {{ checkboxGroup }}
-                </p>
             </section>
         </div>
         <div class="column is-two-thirds">

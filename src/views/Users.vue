@@ -1,7 +1,7 @@
 <template>
   <div class="container is-fluid has-background-light">
     <div class="full">
-      <h1 class="is-size-1">Users Page</h1>
+      <h1 class="is-size-4">Users Page</h1>
         <b-field label="Name">
             <b-input v-model="name"></b-input>         
             <b-button>Search</b-button>

@@ -1,7 +1,7 @@
 <template>
   <div class="container is-fluid has-background-light">
     <div class="notification full">
-      <h1>Import Page</h1>
+      <h1 class="is-size-4">Import Page</h1>
       <b-field>
         <b-select placeholder="Product Type">
           <option>USA</option>

@@ -21,6 +21,6 @@ export default {
 </script>
 <style lang="scss">
 .full{
-  min-height: 70vh;
+  min-height: 75vh;
 }
 </style>
