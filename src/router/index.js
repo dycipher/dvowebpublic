@@ -13,6 +13,7 @@ import ServiceCodes from '../views/Reports/ServiceCodes'
 import WarrantyReport from '../views/Reports/WarrantyReport'
 import Distributors from '../views/Distributors'
 import Login from '../views/Login'
+import Account from '../views/Account'
 
 Vue.use(VueRouter)
 
@@ -26,6 +27,11 @@ const routes = [
     path: '/login',
     name: 'Login',
     component: Login
+  },
+  {
+    path: '/account',
+    name: 'Account',
+    component: Account
   },
   {
     path: '/users',

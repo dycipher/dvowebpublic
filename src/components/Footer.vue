@@ -41,7 +41,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 .DVO_SUSPENSION{
   font-family:  'Anton', sans-serif;
   border-bottom: 2px solid #82bc00;

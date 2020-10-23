@@ -9,9 +9,6 @@
             </b-navbar-item>
         </template>
         <template slot="start">
-            <!-- <b-navbar-item tag="router-link" :to="{ path: '/users' }">
-                Users
-            </b-navbar-item> -->
             <b-navbar-item tag="router-link" :to="{ path: '/distributors' }">
                 Distributor
             </b-navbar-item>
@@ -20,12 +17,6 @@
             </b-navbar-item>
             <b-navbar-item tag="router-link" :to="{ path: '/distributors' }">
                 Sales
-            </b-navbar-item>
-            <b-navbar-item tag="router-link" :to="{ path: '/warranty-credit-request' }">
-                Warranty Credit Requests
-            </b-navbar-item>
-            <b-navbar-item tag="router-link" :to="{ path: '/report-builder' }">
-                Report Builder
             </b-navbar-item>
         </template>
         <template slot="end">

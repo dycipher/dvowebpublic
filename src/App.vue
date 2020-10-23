@@ -33,6 +33,10 @@ $dvogreen: #82bc00;
 $dvogreen-invert: findColorInvert($dvogreen);
 $dvodark: #1a1a1a;
 $dvodark-invert: findColorInvert($dvodark);
+$dvogrey: #222222;
+$dvogrey-invert: findColorInvert($dvogrey);
+$dvoalt: #1e1e1e;
+$dvoalt-invert: findColorInvert($dvoalt);
 
 // Setup $colors to use as bulma classes (e.g. 'is-twitter')
 $colors: (
@@ -47,7 +51,10 @@ $colors: (
     "danger": ($danger, $danger-invert),
     "twitter": ($twitter, $twitter-invert),
     "dvogreen": ($dvogreen, $dvogreen-invert),
-    "dvodark": ($dvodark, $dvodark-invert)
+    "dvodark": ($dvodark, $dvodark-invert),
+    "dvogrey": ($dvogrey, $dvogrey-invert),
+    "dvoalt": ($dvoalt, $dvoalt-invert)
+
 );
 // Links
 $link: $dvogreen;
@@ -58,7 +65,7 @@ $card-background-color: $dvodark;
 $card-color: $white;
 $card-header-color: $white;
 
-$background: #222222;
+$background: $dvogrey;
 
 $label-color: $white;
 
