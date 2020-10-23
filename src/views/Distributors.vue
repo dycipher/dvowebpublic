@@ -1,5 +1,5 @@
 <template>
-  <div class="container is-fluid has-background-light">
+  <div class="container is-fluid ">
     <div class="full">
       <h1 class="is-size-4">Dist Page</h1>
       <b-field label="Search">

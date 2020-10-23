@@ -1,5 +1,5 @@
 <template>
-  <div class="container is-fluid has-background-light">
+  <div class="container is-fluid ">
     <div class="notification full">
       <h1 class="is-size-4">Product Groups Page</h1>
       <section>

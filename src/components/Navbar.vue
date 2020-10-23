@@ -3,84 +3,34 @@
         <template slot="brand">
             <b-navbar-item tag="router-link" :to="{ path: '/' }">
                 <img
-                    src="logo.jpg"
+                    src="Main Logo.png"
                     alt="DVO Suspension Logo"
                 >
             </b-navbar-item>
         </template>
         <template slot="start">
-            <b-navbar-item tag="router-link" :to="{ path: '/users' }">
+            <!-- <b-navbar-item tag="router-link" :to="{ path: '/users' }">
                 Users
+            </b-navbar-item> -->
+            <b-navbar-item tag="router-link" :to="{ path: '/distributors' }">
+                Distributor
             </b-navbar-item>
             <b-navbar-item tag="router-link" :to="{ path: '/distributors' }">
-                Distributors
+                Service
             </b-navbar-item>
-            <b-navbar-dropdown label="Products">
-                <b-navbar-item tag="router-link" :to="{ path: '/products' }">
-                    Products
-                </b-navbar-item>
-                <b-navbar-item tag="router-link" :to="{ path: '/products/groups' }">
-                    Product Groups
-                </b-navbar-item>
-                <b-navbar-item tag="router-link" :to="{ path: '/products/import' }">
-                    Batch Import
-                </b-navbar-item>
-                <b-navbar-item tag="router-link" :to="{ path: '/products/registration' }">
-                    Registration and History
-                </b-navbar-item>
-            </b-navbar-dropdown>
+            <b-navbar-item tag="router-link" :to="{ path: '/distributors' }">
+                Sales
+            </b-navbar-item>
             <b-navbar-item tag="router-link" :to="{ path: '/warranty-credit-request' }">
                 Warranty Credit Requests
             </b-navbar-item>
             <b-navbar-item tag="router-link" :to="{ path: '/report-builder' }">
                 Report Builder
             </b-navbar-item>
-            <!-- <b-navbar-dropdown label="Reports">
-                <b-navbar-item tag="router-link" :to="{ path: '/warranty-report' }">
-                    Warranty Credit Report
-                </b-navbar-item>
-                <b-navbar-item tag="router-link" :to="{ path: '/parts-used-report' }">
-                    Parts Used Report
-                </b-navbar-item>
-                <b-navbar-item tag="router-link" :to="{ path: '/service-codes-reports' }">
-                    Service Codes Report
-                </b-navbar-item>
-            </b-navbar-dropdown> -->
-            <!-- <b-navbar-dropdown label="Admin">
-                <b-navbar-item href="#">
-                    Product Categories
-                </b-navbar-item>
-                <b-navbar-item href="#">
-                    List of Values
-                </b-navbar-item>
-                <b-navbar-item href="#">
-                    Email Templates
-                </b-navbar-item>
-                <b-navbar-item href="#">
-                    Error Log
-                </b-navbar-item>
-                <b-navbar-item href="#">
-                    Email Log
-                </b-navbar-item>
-                <b-navbar-item href="#">
-                    My Profile
-                </b-navbar-item>
-                <b-navbar-item href="#">
-                    Logout
-                </b-navbar-item>
-            </b-navbar-dropdown> -->
         </template>
-
         <template slot="end">
-            <b-navbar-item tag="div">
-                <div class="buttons">
-                    <a class="button is-primary">
-                        <strong>Sign up</strong>
-                    </a>
-                    <a class="button is-light">
-                        Log in
-                    </a>
-                </div>
+            <b-navbar-item tag="router-link" :to="{ path: '/account' }">
+                Account
             </b-navbar-item>
         </template>
     </b-navbar>
@@ -93,5 +43,7 @@ export default {
 </script>
 
 <style>
-
+.navbar-item{
+    font-family:  'Anton', sans-serif;
+}
 </style>

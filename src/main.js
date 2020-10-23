@@ -5,7 +5,6 @@ import store from './store'
 
 import WebDataRocks from 'webdatarocks'
 import Buefy from 'buefy'
-import 'buefy/dist/buefy.css'
 
 import Amplify from 'aws-amplify';
 import '@aws-amplify/ui-vue';

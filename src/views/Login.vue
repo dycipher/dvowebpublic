@@ -1,5 +1,5 @@
 <template>
-  <div class="container is-fluid has-background-light">
+  <div class="container">
     <div class="notification full">
       <h1>Login Page</h1>
     </div>
