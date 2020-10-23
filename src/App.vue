@@ -31,8 +31,8 @@ $twitter-invert: findColorInvert($twitter);
 $dvoblack: #111900;
 $dvogreen: #82bc00;
 $dvogreen-invert: findColorInvert($dvogreen);
-
-$dvonav: #1a1a1a;
+$dvodark: #1a1a1a;
+$dvodark-invert: findColorInvert($dvodark);
 
 // Setup $colors to use as bulma classes (e.g. 'is-twitter')
 $colors: (
@@ -46,20 +46,23 @@ $colors: (
     "warning": ($warning, $warning-invert),
     "danger": ($danger, $danger-invert),
     "twitter": ($twitter, $twitter-invert),
-    "dvogreen": ($dvogreen, $dvogreen-invert)
+    "dvogreen": ($dvogreen, $dvogreen-invert),
+    "dvodark": ($dvodark, $dvodark-invert)
 );
 // Links
 $link: $dvogreen;
 $link-invert: $dvogreen;
 $link-focus-border: $dvogreen;
 
-$card-background-color: $dvonav;
+$card-background-color: $dvodark;
 $card-color: $white;
 $card-header-color: $white;
 
 $background: #222222;
 
-$navbar-background-color:$dvonav;
+$label-color: $white;
+
+$navbar-background-color:$dvodark;
 $navbar-item-color: #d0cfce;
 $navbar-item-hover-background-color: #2e2e2e;
 
@@ -73,6 +76,12 @@ $footer-color: white;
 
 html{
   background-color: #222222;
+}
+
+.background{
+  background-image: url("/bike_background.png");
+  background-position: center;
+  background-size: cover;
 }
 .full{
   min-height: 75vh;

@@ -1,6 +1,6 @@
 <template>
-  <div class="background">
-    <div class="">
+  <div>
+    <div>
       <section class="hero is-medium background">
         <div class="hero-body">
           <div class="container">
@@ -117,13 +117,7 @@ export default {
 }
 </script>
 
-<style>
-.background{
-  background-image: url("/bike_background.png");
-  background-position: center;
-  background-size: cover;
-}
-
+<style scoped>
 .card {
   border-radius: 20px;
 
@@ -137,16 +131,6 @@ export default {
   font-family: 'Roboto', sans-serif;
   font-weight: 100;
 }
-
-/* .{
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-}
-
-.columns button{
-  margin-top: auto;
-} */
 
 .card-equal-height {
    display: flex;
