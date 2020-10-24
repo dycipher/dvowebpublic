@@ -7,14 +7,14 @@ import ProductGroups from '../views/Products/ProductGroups'
 import Import from '../views/Products/Import'
 import Registration from '../views/Products/Registration'
 import Query from '../views/Products/Query'
-import WarrantyCreditRequest from '../views/WarrantyCreditRequest'
 import PartsUsedReport from '../views/Reports/PartsUsedReport'
 import ServiceCodes from '../views/Reports/ServiceCodes'
 import WarrantyReport from '../views/Reports/WarrantyReport'
 import Distributors from '../views/Distributors'
 import Login from '../views/Login'
 import Account from '../views/Account'
-
+import WarrantyCreditRequest from '../views/WarrantyCreditRequest'
+import WarrantyRequest from '../views/WarrantyRequest'
 Vue.use(VueRouter)
 
 const routes = [
@@ -32,6 +32,11 @@ const routes = [
     path: '/account',
     name: 'Account',
     component: Account
+  },
+  {
+    path: '/warranty-request',
+    name: 'WarrantyRequest',
+    component: WarrantyRequest
   },
   {
     path: '/users',

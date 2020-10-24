@@ -69,6 +69,11 @@ $background: $dvogrey;
 
 $label-color: $white;
 
+$table-color: $white;
+$table-head-cell-color: $dvogreen;
+
+$table-background-color: $dvoalt;
+
 $navbar-background-color:$dvodark;
 $navbar-item-color: #d0cfce;
 $navbar-item-hover-background-color: #2e2e2e;

@@ -167,7 +167,7 @@
               </div>
               <div class="columns is-centered has-background-dvodark has-text-centered">
                   <div class="column is-one-fifth ">
-                    <button class="button is-medium is-dvogreen">Update</button>
+                    <button class="button is-medium is-dvogrey">Update</button>
                   </div>
               </div>
           </section>
@@ -186,7 +186,6 @@ export default {
 </script>
 
 <style>
-
 .field-label .label {
     color: #82bc00 !important;
     font-size: 0.8em;
